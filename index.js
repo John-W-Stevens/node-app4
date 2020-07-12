@@ -5,7 +5,7 @@ app.get("/", function(req, res){
     res.send("Hello, this is the base route!");
 });
 app.get("/waffles", function(req, res){
-    res.send("This route serves the Waffles resource.");
+    res.send("This route serves the Chocolate-Frosted-Sugar-Bombs resource.");
 });
 app.get("/pancakes", function(req, res){
     res.send("This route serves the Pancakes resource.");
