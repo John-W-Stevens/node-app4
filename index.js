@@ -2,10 +2,10 @@ var express = require("express");
 var app = express();
 
 app.get("/", function(req, res){
-    res.send("Hello, this is the base route!");
+    res.send("Hello, this is the base route! Jenkins is nifty!");
 });
 app.get("/waffles", function(req, res){
-    res.send("This route serves the Chocolate-Frosted-Sugar-Bombs resource.");
+    res.send("This route serves the Waffles resource.");
 });
 app.get("/pancakes", function(req, res){
     res.send("This route serves the Pancakes resource.");

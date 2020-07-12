@@ -3,7 +3,7 @@ var app = require('../index.js');
 
 describe('GET /', function(){
     it('respond with base route', function(done){
-        request(app).get('/').expect('Hello, this is the base route!', done);
+        request(app).get('/').expect('Hello, this is the base route! Jenkins is nifty!', done);
     });
 });
 
