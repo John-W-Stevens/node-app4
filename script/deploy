@@ -1,0 +1,12 @@
+#!/bin/sh
+
+ssh -tt root@206.189.66.138 <<EOF
+sudo ufw allow 3001
+cd node-app4
+git fetch --all
+git reset --hard origin/master
+npm install - production
+pm2 restart all
+exit
+exit
+EOF
